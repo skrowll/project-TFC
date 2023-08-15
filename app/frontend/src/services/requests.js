@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://project-tfc-production-5b6b.up.railway.app/',
+  baseURL: 'https://happy-gabardine-boa.cyclic.app',
 });
 
 export const setToken = (token) => {
