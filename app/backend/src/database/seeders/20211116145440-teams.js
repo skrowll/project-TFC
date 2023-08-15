@@ -4,7 +4,7 @@ module.exports = {
       'teams',
       [
         {
-          team_name: 'Avaí/Kindermann',
+          team_name: 'Avaí',
         },
         {
           team_name: 'Bahia',
