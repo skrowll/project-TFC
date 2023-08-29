@@ -9,9 +9,13 @@ const config: Options = {
   port: Number(process.env.DB_PORT) || 3002,
   dialect: 'mysql',
   dialectOptions: {
-    timezone: 'Z',
+    // timezone: 'Z',
+    ssl: {
+      require: true,
+      rejectUnauthorized: false
+    }
   },
-  logging: false,
+  // logging: false,
 }
 
 module.exports = config;
